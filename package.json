@@ -1,0 +1,30 @@
+{
+  "name": "string-type-convertor",
+  "version": "1.0.0",
+  "description": "transform string to typed value (number, boolean, float, null, undefined, ...)",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benevolarX/string-type-convertor.git"
+  },
+  "keywords": [
+    "string",
+    "type",
+    "convertor",
+    "convert",
+    "transform",
+    "typeConvertor",
+    "string-to-number",
+    "string-to-boolean",
+    "string-to-float"
+  ],
+  "author": "benevolarX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benevolarX/string-type-convertor/issues"
+  },
+  "homepage": "https://github.com/benevolarX/string-type-convertor#readme"
+}

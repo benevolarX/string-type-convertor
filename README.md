@@ -25,6 +25,22 @@ typeConvertor("3.14"); // return 3.14
 typeConvertor("150"); // return 150
 typeConvertor("hello"); // return 'hello'
 
+const myTest = (val) => {
+    return val === 'email';
+}
+
+const myConvert = (val) => {
+    return `no-reply@my-website.com`;
+}
+
+const personnal = {
+    test: myTest,
+    convert: myConvert
+}
+
+typeConvertor("email", [personnal]); // return 'no-reply@my-website.com'
+
+
 ```
 
 ## Contributing

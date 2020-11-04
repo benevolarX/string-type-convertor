@@ -1,3 +1,7 @@
+![GitHub](https://img.shields.io/github/license/benevolarX/string-type-convertor?style=for-the-badge)
+![npm](https://img.shields.io/npm/dw/string-type-convertor?style=for-the-badge)
+![npm bundle size](https://img.shields.io/bundlephobia/min/string-type-convertor?style=for-the-badge)
+
 # string-type-convertor
 string-type-convertor is a js library for transform string to typed value (number, boolean, float, null, undefined, ...)
 It is useful when creating a router to retrieve the typed parameters of the url.

@@ -35,15 +35,11 @@ export function typeConvertor(val, tests = []) {
     }
     
     if (isBigInt.test(val)) {
-        return BigInt(val.substr(0, val.length - 1));
+        return BigInt(val.slice(0, -1));
     }
     
-    if (isFloat.test(val)) {
-        return parseFloat(val);
-    }
-
-    if (isInt.test(val)) {
-        return parseInt(val);
+    if (isFloat.test(val) || isInt.test(val)) {
+        return + val;
     }
 
     for (let i = 0; i < tests.length; i++) {

@@ -1,5 +1,6 @@
 [![GitHub license](https://img.shields.io/github/license/benevolarX/string-type-convertor?style=for-the-badge)](https://github.com/benevolarX/string-type-convertor/blob/main/LICENSE)
-![npm](https://img.shields.io/npm/dw/string-type-convertor?style=for-the-badge)
+[![npm](https://img.shields.io/npm/v/string-type-convertor?style=for-the-badge)](https://www.npmjs.com/package/string-type-convertor)
+[![npm](https://img.shields.io/npm/dw/string-type-convertor?style=for-the-badge)](https://www.npmjs.com/package/string-type-convertor)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/string-type-convertor?style=for-the-badge)
 [![GitHub issues](https://img.shields.io/github/issues/benevolarX/string-type-convertor?style=for-the-badge)](https://github.com/benevolarX/string-type-convertor/issues)
 

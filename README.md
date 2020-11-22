@@ -21,7 +21,7 @@ npm i string-type-convertor
 ## Usage
 
 ```js
-import { typeConvertor } from 'string-type-convertor';
+const typeConvertor = require('string-type-convertor');
 
 typeConvertor("undefined"); // return undefined
 typeConvertor("null"); // return null

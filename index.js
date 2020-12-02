@@ -17,6 +17,13 @@ const isInt = new RegExp(/^[0-9]+$/)
  * @param {{ test: ((val: string) => boolean), convert: ((val: string) => any) }[]} tests 
  */
 function typeConvertor(val, tests = []) {
+    
+    for (let i = 0; i < tests.length; i++) {
+        const { test, convert } = tests[i]
+        if (test(val)) {
+            return convert(val)
+        }
+    }
 
     if (val === 'undefined') {
         return undefined
@@ -40,13 +47,6 @@ function typeConvertor(val, tests = []) {
     
     if (isFloat.test(val) || isInt.test(val)) {
         return + val
-    }
-
-    for (let i = 0; i < tests.length; i++) {
-        const { test, convert } = tests[i]
-        if (test(val)) {
-            return convert(val)
-        }
     }
 
     return val
